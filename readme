@@ -1,0 +1,15 @@
+1) создать базу данных
+2) в папке _migrate лежит sql файл для создания таблицы
+3) я использую mysql, php 5.6, apache, bootstrap, jquery
+4) bootstrap, jquery подключются через cdn
+5) в папке, в файле bootstrap надо изменить настройки к БД 
+
+define('APP_PDO_DSN', 'mysql:host=localhost;dbname=app_test');
+define('APP_PDO_USERNAME', 'root');
+define('APP_PDO_PASSWORD', 'ttt');
+
+6) веб папка - это public_html
+7) внимание на .htaccess в папке веб
+8) иногда cdn глючит, из-за этого появляются ошибки javascript
+
+Вроде бы это все!
